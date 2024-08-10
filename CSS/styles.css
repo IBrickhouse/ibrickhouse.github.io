@@ -1,7 +1,19 @@
 body {
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    margin: 0% auto;
+    height: 100vh;
+    background-color: #508991;
+    font-family: Arial, Helvetica, sans-serif;
     
 }
 
-.main-header{
+header {
+    align-items:center;
+}
+
+.introduction {
 
 }
+
