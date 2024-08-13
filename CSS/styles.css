@@ -13,7 +13,18 @@ header {
     align-items:center;
 }
 
-.introduction {
-    align-items:end;
+body {
+    
 }
 
+.converter {
+    columns: 2 auto;
+}
+
+/* .eventDetailsLeft {
+    width: 75%;
+}
+
+.convertedInfoRight {
+    width: 25%;
+} */

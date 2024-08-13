@@ -24,46 +24,46 @@
     <p>On this page I have included a sample of the time converter but if you would like to check out the full project you can visit
         <a href="https://dev--dreamy-melba-dc7119.netlify.app/"> my timezone scheduler web app</a></p>
 
-        <div id="eventDetails">
-            <h1>Tell Me About Your Event</h1>
-          
-            <label>Name:</label>
-            <input type="text" id="name">
-            <br><br>
-            <Label>Description:</Label>
-            <input type="textbox" id="eventDescription">
-            <br><br>
-            <label>Date:</label>
-            <input type="date" id="when">
-            <br><br>
-            <label>Time:</label>
-            <input type="time" id="whenTime">
-            <br><br>
-            <label>Time Zone:</label>
-            <select id="whenZone">
-              <option value=""></option>
-            </select>
-            <br><br>
-            <!-- Submit button -->
-            <button type="botton" id="myButton" onclick="readAndConvertEventDate()">Submit</button>
-          </div>
-          
-          <div id="convertedInfo">
-            <h1> Your Event Details In Your Time Zone:</h1> 
-          
-            <form>
-              <Label>Name:</Label>
-              <input type="text" id="eventName" readonly="readonly">
+        <div class="converter">
+          <div id="eventDetailsLeft">
+              <h1>Tell Me About Your Event</h1>
+            
+              <label>Name:</label>
+              <input type="text" id="name">
               <br><br>
-              <label>Date:</Label>
-              <input type="date" id="convertedDate" readonly="readonly">
+              <Label>Description:</Label>
+              <input type="textbox" id="eventDescription">
               <br><br>
-              <label>Time:</Label>
-              <input type="time" id="convertedTime" readonly="readonly">
+              <label>Date:</label>
+              <input type="date" id="when">
               <br><br>
-            </form>
-          </div>
-
+              <label>Time:</label>
+              <input type="time" id="whenTime">
+              <br><br>
+              <label>Time Zone:</label>
+              <select id="whenZone">
+                <option value=""></option>
+              </select>
+              <br><br>
+              <!-- Submit button -->
+              <button type="botton" id="myButton" onclick="readAndConvertEventDate()">Convert!</button>
+            </div>
+            
+            <div id="convertedInfoRight">
+              <h1> Your Event Details In Your Time Zone:</h1> 
+              <form>
+                <Label>Name:</Label>
+                <input type="text" id="eventName" readonly="readonly">
+                <br><br>
+                <label>Date:</Label>
+                <input type="date" id="convertedDate" readonly="readonly">
+                <br><br>
+                <label>Time:</Label>
+                <input type="time" id="convertedTime" readonly="readonly">
+                <br><br>
+              </form>
+            </div>
+        </div>
           <script src="script.js"></script>
 </body>
 </html>
