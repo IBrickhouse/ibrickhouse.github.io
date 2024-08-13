@@ -13,18 +13,6 @@ header {
     align-items:center;
 }
 
-body {
-    
-}
-
 .converter {
     columns: 2 auto;
 }
-
-/* .eventDetailsLeft {
-    width: 75%;
-}
-
-.convertedInfoRight {
-    width: 25%;
-} */

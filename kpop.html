@@ -16,16 +16,16 @@
 
     <p>Music has been a defining interest of mine that has stuck with me my whole life.</p>
     <p>In 2019, I fell in love with Kpop and the culture around it, but being American, I noticed some issues with participating in the events.</p>
-    <p>Because of this, i decided to build some things that would help with those issues.</p>
+    <p>Because of this, I decided to build some tools that would help with those issues.</p>
     <p>The one I am most proud of is my time zone calculator and scheduler that I call "When"</p>
-    <p>The time zone calculator can convert the time of an event in a foreign time zone to the local time zone of the user.</p>
+    <p>The time zone calculator can convert the time of an event from a foreign time zone to the local time zone of the user.</p>
     <p>Optionally, it can send an email reminder with a calendar event to add to the users email.</p>
     <p>If they dont know of an event coming up, they can use the schedule tab to see upcoming events that they may be interested in and send it to themselves that way.</p>
     <p>On this page I have included a sample of the time converter but if you would like to check out the full project you can visit
         <a href="https://dev--dreamy-melba-dc7119.netlify.app/"> my timezone scheduler web app</a></p>
 
         <div class="converter">
-          <div id="eventDetailsLeft">
+          <div id="eventDetails">
               <h1>Tell Me About Your Event</h1>
             
               <label>Name:</label>
@@ -49,7 +49,7 @@
               <button type="botton" id="myButton" onclick="readAndConvertEventDate()">Convert!</button>
             </div>
             
-            <div id="convertedInfoRight">
+            <div id="convertedInfo">
               <h1> Your Event Details In Your Time Zone:</h1> 
               <form>
                 <Label>Name:</Label>
@@ -64,6 +64,7 @@
               </form>
             </div>
         </div>
-          <script src="script.js"></script>
+
+  <script src="script.js"></script>
 </body>
 </html>
