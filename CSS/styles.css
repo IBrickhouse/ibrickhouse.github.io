@@ -22,3 +22,12 @@ header {
 .converter {
     columns: 2 auto;
 }
+
+.secret{
+    p {
+        a {
+            color: #99CC66;
+            hover
+        }
+    }
+}
